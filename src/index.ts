@@ -4,6 +4,7 @@
 import { IWatermarkInfo } from './interface';
 import container from './container';
 import svgCreator from './svg';
+
 export default class SvgWatermark {
     observer: MutationObserver | null;
     constructor() {
